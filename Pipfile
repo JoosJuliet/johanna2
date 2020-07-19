@@ -1,0 +1,41 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+awscli = "*"
+fabric3 = "*"
+drf-yasg = "*"
+
+[packages]
+django-cors-headers = "==3.2.0"
+dj-database-url = "==0.5.0"
+djangorestframework = "==3.10.3"
+setuptools = "*"
+zappa = "==0.48.2"
+django = "==2.1.8"
+factory-boy = "*"
+django-extensions = "*"
+flake8 = "*"
+boto3 = "*"
+django-model-utils = "*"
+django-grappelli = "*"
+isort = "*"
+zappa-django-utils = "*"
+djangorestframework-simplejwt = "*"
+mysqlclient = "==1.4.6"
+pymysql = "*"
+django-storages = "==1.6.6"
+pillow = "*"
+pytest = "*"
+pytest-django = "*"
+pytest-flake8 = "*"
+pytest-isort = "*"
+pytest-cov = "*"
+codecov = "*"
+django-mysql = "*"
+pydash = "*"
+
+[requires]
+python_version = "3.7"
