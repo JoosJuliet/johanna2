@@ -1,0 +1,48 @@
+{
+  "aws": {
+    "AWS_ACCESS_KEY_ID": "...",
+    "AWS_AVAILABILITY_ZONE_1": "ap-northeast-2a",
+    "AWS_AVAILABILITY_ZONE_2": "ap-northeast-2c",
+    "AWS_DEFAULT_REGION": "ap-northeast-2",
+    "AWS_SECRET_ACCESS_KEY": "..."
+  },
+  "common": {
+    "AWS_KEY_PAIR_MATERIAL": "...",
+    "AWS_KEY_PAIR_NAME": "...",
+    "AWS_SUBNET_EB_PRIVATE_1": "10.210.0.0/20",
+    "AWS_SUBNET_EB_PRIVATE_2": "10.210.16.0/20",
+    "AWS_SUBNET_EB_PUBLIC_1": "10.210.128.0/20",
+    "AWS_SUBNET_EB_PUBLIC_2": "10.210.144.0/20",
+    "AWS_SUBNET_RDS_PRIVATE_1": "10.200.0.0/20",
+    "AWS_SUBNET_RDS_PRIVATE_2": "10.200.16.0/20",
+    "AWS_VPC_EB": "10.210.0.0/16",
+    "AWS_VPC_RDS": "10.200.0.0/16",
+    "DEBUG": "True",
+    "PHASE": "dv"
+  },
+  "elasticbeanstalk": {
+    "APPLICATION_NAME": "dv",
+    "ENVIRONMENTS": [
+      {
+        "AWS_ASG_MAX_VALUE": "1",
+        "AWS_ASG_MIN_VALUE": "1",
+        "AWS_EB_NOTIFICATION_EMAIL": "...",
+        "CNAME": "dv-nova",
+        "GIT_URL": "git@github.com:HardBoiledSmith/nova.git",
+        "HOST": "dv-nova.hbsmith.io",
+        "NAME": "nova",
+        "SSL_CERTIFICATE_ID": "...",
+        "SUBNET_TYPE": "public",
+        "TYPE": "django",
+        "URL": "http://dv-nova.hbsmith.io"
+      }
+    ]
+  },
+  "vpc": [
+    {
+      "AWS_AVAILABILITY_ZONE_1": "ap-northeast-2a",
+      "AWS_AVAILABILITY_ZONE_2": "ap-northeast-2c",
+      "AWS_DEFAULT_REGION": "ap-northeast-2"
+    }
+  ]
+}
